@@ -1,0 +1,155 @@
+[
+  {
+    "song_name": "Chill Vibes",
+    "image": "/song list images/chillVibes.jpeg",
+    "song_type": "lofi",
+    "song_artist": "Lofi Master",
+    "song_origin": "Hollywood",
+    "song_duration": "3:45",
+    "song_description": "A relaxing lofi track perfect for studying or unwinding after a long day.",
+    "popularity": 7
+  },
+  {
+    "song_name": "Electric Storm",
+    "image": "/song list images/electricStorm.jpg",
+    "song_type": "electronic",
+    "song_artist": "Synthwave Wizard",
+    "song_origin": "Hollywood",
+    "song_duration": "4:20",
+    "song_description": "An electrifying electronic track that takes you on a journey through a digital landscape.",
+    "popularity": 8
+  },
+  {
+    "song_name": "City Lights",
+    "image": "/song list images/cityLights.jpeg",
+    "song_type": "jazz",
+    "song_artist": "Smooth Jazz Trio",
+    "song_origin": "Bollywood",
+    "song_duration": "5:10",
+    "song_description": "Smooth jazz with a touch of sophistication, evoking the ambiance of a bustling city at night.",
+    "popularity": 6
+  },
+  {
+    "song_name": "Rock Anthem",
+    "image": "/song list images/rockAnthem.jpeg",
+    "song_type": "rock",
+    "song_artist": "The Rockers",
+    "song_origin": "Hollywood",
+    "song_duration": "3:55",
+    "song_description": "An energetic rock anthem with powerful guitar riffs and catchy lyrics that will get you pumped up.",
+    "popularity": 9
+  },
+  {
+    "song_name": "Baarishein",
+    "image": "/song list images/baarishein.jpg",
+    "song_type": "lofi",
+    "song_artist": "anuv jain",
+    "song_origin": "Bollywood",
+    "song_duration": "4:30",
+    "song_description": "A laid-back hip hop groove with smooth beats and clever wordplay, perfect for cruising around the city.",
+    "popularity": 10
+  },
+  {
+    "song_name": "Sunset Serenade",
+    "image": "/song list images/Sunset Serenade.jpeg",
+    "song_type": "lofi",
+    "song_artist": "Chill Beats Collective",
+    "song_origin": "Hollywood",
+    "song_duration": "3:20",
+    "song_description": "A mellow lofi track that captures the tranquility of watching the sunset with its soothing melodies.",
+    "popularity": 8
+  },
+  {
+    "song_name": "Retro Funk",
+    "image": "/song list images/retroFunk.jpg",
+    "song_type": "funk",
+    "song_artist": "Funky Groove Band",
+    "song_origin": "Hollywood",
+    "song_duration": "4:45",
+    "song_description": "Get down and funky with this retro-inspired funk track, guaranteed to get you grooving on the dance floor.",
+    "popularity": 7
+  },
+  {
+    "song_name": "Bollywood Beats",
+    "image": "/song list images/Bollywood Beats.jpeg",
+    "song_type": "bollywood",
+    "song_artist": "Bollywood Sensation",
+    "song_origin": "Bollywood",
+    "song_duration": "4:15",
+    "song_description": "An upbeat Bollywood track infused with vibrant rhythms and catchy melodies that will make you want to dance.",
+    "popularity": 9
+  },
+  {
+    "song_name": "Lunar Lullaby",
+    "image": "/song list images/Lunar Lullaby.jpg",
+    "song_type": "ambient",
+    "song_artist": "Space Voyager",
+    "song_origin": "Hollywood",
+    "song_duration": "6:00",
+    "song_description": "Embark on a journey to the stars with this ambient track that captures the serene beauty of outer space.",
+    "popularity": 8
+  },
+  {
+    "song_name": "Acoustic Serenade",
+    "image": "/song list images/chillVibes.jpeg",
+    "song_type": "acoustic",
+    "song_artist": "Acoustic Dreamer",
+    "song_origin": "Hollywood",
+    "song_duration": "3:35",
+    "song_description": "Let the gentle strumming of acoustic guitars serenade you with this heartfelt and soulful track.",
+    "popularity": 7
+  },
+  {
+    "song_name": "Urban Grooves",
+    "image": "/landing-page-images/urban.jpg",
+    "song_type": "hip hop",
+    "song_artist": "Lofi Master",
+    "song_origin": "Hollywood",
+    "song_duration": "4:10",
+    "song_description": "Immerse yourself in the urban soundscape with this hip hop track that captures the pulse of the city streets.",
+    "popularity": 9
+  },
+
+  {
+    "song_name": "Epic Journey",
+    "image": "/song list images/epic_journey.jpeg",
+    "song_type": "orchestral",
+    "song_artist": "Lofi Master",
+    "song_origin": "Hollywood",
+    "song_duration": "7:15",
+    "song_description": "Embark on an epic musical journey with this orchestral masterpiece that evokes a sense of grandeur and adventure.",
+    "popularity": 8
+  },
+
+  {
+    "song_name": "Afreen",
+    "image": "/song list images/anuv.jpg",
+    "song_type": "indie",
+    "song_artist": "Anuv Jain",
+    "song_origin": "Bollywood",
+    "song_duration": "5:15",
+    "song_description": "An emotionally captivating indie track with heartfelt lyrics and soulful melodies.",
+    "popularity": 8
+  },
+  {
+    "song_name": "Riha",
+    "image": "/song list images/riha.jpg",
+    "song_type": "indie",
+    "song_artist": "Anuv Jain",
+    "song_origin": "Bollywood",
+    "song_duration": "4:40",
+    "song_description": "A soul-stirring indie ballad that delves into the depths of longing and separation.",
+    "popularity": 7
+  },
+
+  {
+    "song_name": "Maula",
+    "image": "/song list images/maula.jpg",
+    "song_type": "indie",
+    "song_artist": "Anuv Jain",
+    "song_origin": "Bollywood",
+    "song_duration": "4:55",
+    "song_description": "A poignant indie track that explores the complexities of faith and spirituality with its introspective lyrics and haunting melodies.",
+    "popularity": 7
+  }
+]

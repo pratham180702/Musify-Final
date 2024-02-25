@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  height: 100vh;
+}
+
+.song-container {
+  height: 80vh;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  min-width: 40%;
+}
+
+.song {
+  /* width: 50vw; */
+  height: 32vh;
+  background-color: #222222;
+  /* border-radius: 20px; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.song-img-container {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 250px;
+  max-height: 250px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.song-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 25vh;
+  min-width: 100%;
+  max-width: 25vw;
+  max-height: 25vh;
+  margin-bottom: 10px;
+}
+
+.name-duration-artist,
+.artist-name {
+  width: 80%;
+  margin-left: 20px;
+}
+
+.name-and-duration {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.song-name {
+  font-size: 2em;
+}
+
+.artist-name {
+  width: 80%;
+  justify-content: flex-start;
+  color: #747171;
+}
+
+.play-footer {
+  min-width: 659px;
+  display: flex;
+  max-width: 659px;
+  background-color: #747171;
+  position: relative;
+  top: -9%;
+  min-height: 44px;
+  height: 44px;
+  padding: 2px;
+  opacity: 0.7;
+  left: 30%;
+  border-radius: 25px;
+  padding: 0 20px;
+  padding-top: 5px;
+}
+
+.cd {
+  width: 35px;
+  /* margin-left: 20px; */
+  /* margin-top: 2px; */
+  animation: rotate-cd 0.7s ease-in-out infinite;
+}
+
+@keyframes rotate-cd {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* -----------search--------- */
+
+.input-and-cancel-search {
+  display: flex;
+}
+
+.cancel-search {
+  background-color: #222222;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  display: none;
+}
+
+/* suggestions cards ========= */
+.card-anchor {
+  text-decoration: none;
+}
+
+.section2-main-container {
+  display: flex;
+  justify-content: start;
+  overflow-x: scroll;
+  gap: 20px; /* Adjust the gap between cards */
+  background-color: black;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin: 20px 0;
+}
+
+.section2-main-container:-webkit-scrollbar {
+  display: none;
+}
+
+#section2-searchContainer {
+  padding: 10px;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+.song-image {
+  border-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 25vh;
+  min-width: 100%;
+  max-width: 25vw;
+  max-height: 25vh;
+  margin-bottom: 10px;
+}
+
+.song-main-card {
+  background-color: #222222;
+  min-width: 250px;
+  max-width: 250px;
+  padding: 15px;
+  padding-bottom: 0;
+  border-radius: 20px;
+  position: relative;
+}
+
+.song-main-card > * {
+  background-color: inherit; /* Set child elements to inherit the background color */
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+.song-image {
+  border-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 25vh;
+  min-width: 100%;
+  max-width: 25vw;
+  max-height: 25vh;
+  margin-bottom: 10px;
+}
+.song-main-card h3 {
+  color: white;
+  font-weight: 650;
+  font-size: 1.5rem;
+}
+
+.song-main-card p {
+  font-size: 1rem;
+}
+
+.song-description {
+  color: #717171;
+}
+
+.song-main-card h3 {
+  color: white;
+  font-weight: 650;
+  font-size: 1.5rem;
+}
+
+.song-main-card p {
+  font-size: 1rem;
+}
+
+.song-description {
+  color: #717171;
+}
+
+.play {
+  float: right;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  position: absolute;
+  left: 65%;
+  bottom: 7%;
+}
+
+.song-main-card:hover .play {
+  opacity: 1;
+}
+
+@media screen and (max-width: 570px) {
+  .song {
+    flex-direction: column;
+    justify-content: start;
+    height: 50vh;
+  }
+
+  .section2-main-container {
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+/* ----------audio control webkit ========= */

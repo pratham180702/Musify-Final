@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/Css/main_style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid px-2 main-container">
+      <div class="row gx-2">
+        <div class="col-lg-3">
+          <div class="p-3 section1 d-flex flex-column">
+            <div class="top-box">
+              <div class="top-box-top">
+                <img class="main-logo" src="/images/main_logo.svg" alt="img" />
+                <h1 class="main-heading">Musify</h1>
+              </div>
+              <div class="custom-line"></div>
+              <div class="top-box-bottom">
+                <div class="home-and-search">
+                  <div class="home">
+                    <a class="home-anchor" href="#">Home</a>
+                    <img
+                      class="home-icon"
+                      src="/images/home-button-svgrepo-com.svg"
+                      alt="home"
+                    />
+                  </div>
+                  <div class="search">
+                    <a class="nav-anchor" href="#searchInput">Search</a>
+                    <img
+                      class="search-icon"
+                      src="/images/search-svgrepo-com.svg"
+                      alt="search"
+                    />
+                  </div>
+                </div>
+                <div
+                  id="carouselExampleCaptions"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  style="min-height: 70px"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleCaptions"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="landing-page-images/pop.jpg"
+                        class="d-block w-100 h-70"
+                        alt="..."
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color: rgb(56, 51, 51)">Party?</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="song list images/arijit.webp"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Sad?</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="song list images/just-musify-final.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Just Musify</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-box">
+              <div class="library">
+                <img
+                  class="library-icon"
+                  src="/images/library_icon.svg"
+                  alt=""
+                />
+                <a class="library-anchor" href="#">Your Library</a>
+              </div>
+              <div class="library-cards">
+                <a class="single-card" href="#">
+                  <div class="card">
+                    <img
+                      src="song list images/cityLights.jpeg"
+                      alt="Card Image"
+                    />
+                    <div class="text-overlay">
+                      <a href="songs_new.html" class="library-type"
+                        ><p style="background-color: transparent">
+                          Bollywood
+                        </p></a
+                      >
+                    </div>
+                  </div>
+                </a>
+                <a class="single-card" href="#">
+                  <div class="card">
+                    <img
+                      src="song list images/Sunset Serenade.jpeg"
+                      alt="Card Image"
+                    />
+                    <div class="text-overlay">
+                      <a href="songs_new.html" class="library-type"
+                        ><p style="background-color: transparent">
+                          Hollywood
+                        </p></a
+                      >
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="section1-footer">
+                <p>Musify Inc.</p>
+                <p>All rights reserved &copy;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <div class="p-3 section2 d-flex flex-column">
+            <div class="section2-top-box">
+              <div class="input-and-cancel-search">
+                <input
+                  placeholder="Search Songs"
+                  class="search-input"
+                  type="text"
+                  id="searchInput"
+                  onkeyup="filterSongs()"
+                />
+                <button class="cancel-search" onclick="removeSearchDiv()">
+                  Cancel
+                </button>
+              </div>
+              <div class="logout-and-footer d-flex">
+                <div class="footer-btn" style="margin-right: 10px">
+                  <!-- HTML -->
+                  <button
+                    id="myButton"
+                    class="main-footer-btn"
+                    onclick="changeButton()"
+                  >
+                    Dark Mode
+                  </button>
+                </div>
+                <div class="footer-btn" style="margin-right: 10px">
+                  <button id="logout" class="main-footer-btn">LogOut</button>
+                </div>
+                <div class="footer-btn">
+                  <button
+                    class="main-footer-btn"
+                    onclick="displayDropDown('dropdown-footer')"
+                  >
+                    About Musify
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="dropdown-footer">
+              <div class="dropdown-left-section">
+                <div class="row gx-2">
+                  <div class="col-md-4 menu-col">
+                    <h5>Company</h5>
+                    <a href="">About</a>
+                    <a href="">Jobs</a>
+                    <a href="">For the Record</a>
+                  </div>
+                  <div class="col-md-4 menu-col">
+                    <h5>Communities</h5>
+                    <a href="">For Artists</a>
+                    <a href="">Developers</a>
+                    <a href="">Ad</a>
+                    <a href="">Investors</a>
+                    <a href="">Vendors</a>
+                  </div>
+                  <div class="col-md-4 menu-col">
+                    <h5>Useful Links</h5>
+                    <a href="">Support</a>
+                    <a href="">Free Mobile App</a>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-right-section">
+                <a href=""
+                  ><img class="insta-icon" src="images/insta-icon.svg" alt=""
+                /></a>
+                <a href=""
+                  ><img
+                    class="twitter-icon"
+                    src="images/twitter-icon.svg"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+
+            <!-- -----------filtered search results div----------- -->
+            <div
+              class="section2-main-container"
+              id="section2-searchContainer"
+            ></div>
+
+            <div class="section2-bottom-box">
+              <div
+                class="section2-main-container"
+                id="section2-cardContainer"
+              ></div>
+              <div class="songs">
+                <h4 class="songs-container-h4">Popular Hits</h4>
+                <div
+                  class="section2-main-container"
+                  id="songs-cardContainer"
+                ></div>
+              </div>
+              <div class="songs">
+                <h4 class="songs-container-h4">Hot Picks For you</h4>
+                <div
+                  class="section2-main-container"
+                  id="songs-cardContainer2"
+                ></div>
+                <div class="play-footer">
+                  <a class="main-prev-btn main-btn" href=""
+                    ><img
+                      src="images/play-button-arrowhead-svgrepo-com.svg"
+                      alt=""
+                  /></a>
+                  <a class="main-play-btn main-btn" href=""
+                    ><img src="images/play-button-svgrepo-com.svg" alt=""
+                  /></a>
+                  <a class="main-next-btn main-btn" href=""
+                    ><img
+                      src="images/play-button-arrowhead-svgrepo-com.svg"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="JS/main_page.js"></script>
+  </body>
+</html>

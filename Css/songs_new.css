@@ -1,0 +1,417 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden; /* Hide the vertical scrollbar */
+  max-width: 100vw; /* Set the maximum width of the body to 100% of the viewport width */
+  max-height: 100vh; /* Set the maximum height of the body to 100% of the viewport height */
+  margin: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.partition1 {
+  padding: 20px;
+  padding-top: 0;
+  height: 30vh;
+  background-color: #222222;
+  display: flex;
+}
+
+.partition2 {
+  padding: 20px;
+  height: 62vh;
+  background-color: black;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+}
+
+/* ---------------------------- */
+.search-and-filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-and-popular {
+  display: flex;
+}
+
+.outer-img-container {
+  width: 200px;
+  min-width: 200px;
+  height: 200px;
+  overflow: hidden;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.inner-img-container {
+  width: 100%;
+  height: 100%;
+}
+
+.contained-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* You can use 'cover' if you want the image to cover the container */
+}
+
+/* -----songs side-------- */
+
+.song-details {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-bottom: 0;
+}
+
+.song-name-and-duration {
+  display: flex;
+  justify-content: space-between;
+}
+
+.song-name {
+  font-size: 2em;
+}
+
+.song-duration {
+  text-align: center;
+}
+
+.song-artist-and-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.song-artist {
+  width: 25vw;
+}
+
+.artist-desc {
+  font-size: 0.8em;
+  color: #5e5e5e;
+}
+
+.song-play {
+  /* background-color: none; */
+  /* height: 8vh; */
+  width: 60vw;
+  align-self: center;
+  border-radius: 20px;
+  /* background-color: #222222; */
+  margin-right: 20px;
+}
+
+.cd-container {
+  width: 10vw;
+  margin-bottom: 10px;
+}
+
+.cd {
+  width: 35px;
+  margin-left: 20px;
+  margin-top: 0;
+  padding-bottom: 6px;
+  animation: rotate-cd 0.7s ease-in-out infinite;
+}
+
+@keyframes rotate-cd {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40vw;
+}
+
+.control-buttons a img {
+  width: 25px;
+}
+
+.main-bottom-prev-btn {
+  rotate: 180deg;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .partition1 {
+    height: 40vh;
+    flex-direction: column;
+    position: relative;
+    overflow: scroll;
+  }
+  .outer-img-container {
+    min-height: 150px;
+  }
+  .song-artist-and-desc {
+    flex-direction: column;
+  }
+  .song-play {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .outer-img-container {
+    align-self: center;
+  }
+  .song-play {
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    width: 100%;
+  }
+}
+
+#audioPlayer {
+  width: 100%;
+  padding: 20px;
+}
+#audio {
+  width: 100%;
+  background-color: #222222;
+}
+
+audio {
+  background-color: white; /* Set the desired background color */
+  /* Add any other styling you need */
+}
+
+/* Example: Change the color of the controls in Chrome */
+audio::-webkit-media-controls-panel {
+  background-color: rgb(83, 80, 80);
+  color: white;
+}
+
+/* -------search--------- */
+.search-input {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+.input-and-cancel-search {
+  display: flex;
+}
+
+.cancel-search {
+  margin-left: 15px;
+  background-color: #222222;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  display: none;
+}
+
+.card-anchor {
+  text-decoration: none;
+}
+
+.section2-main-container,
+.section2-filter-container {
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+  gap: 20px; /* Adjust the gap between cards */
+  background-color: black;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin: 20px 0;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.section2-main-container:-webkit-scrollbar {
+  display: none;
+}
+
+#section2-searchContainer,
+#section2-FilterContainer {
+  overflow-x: hidden;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+.song-image {
+  border-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 25vh;
+  min-width: 100%;
+  max-width: 25vw;
+  max-height: 25vh;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.song-main-card {
+  background-color: #222222;
+  min-width: 250px;
+  max-width: 250px;
+  padding: 15px;
+  padding-bottom: 0;
+  border-radius: 20px;
+  position: relative;
+  margin: 10px 0;
+}
+
+.song-main-card > * {
+  background-color: inherit; /* Set child elements to inherit the background color */
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+.song-image {
+  border-radius: 15px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 25vh;
+  min-width: 100%;
+  max-width: 25vw;
+  max-height: 25vh;
+  margin-bottom: 10px;
+}
+.song-main-card h3 {
+  color: white;
+  font-weight: 650;
+  font-size: 1.5rem;
+}
+
+.song-main-card p {
+  font-size: 1rem;
+}
+
+.song-description {
+  color: #717171;
+}
+
+.song-main-card h3 {
+  color: white;
+  font-weight: 650;
+  font-size: 1.5rem;
+}
+
+.song-main-card p {
+  font-size: 1rem;
+}
+
+.song-description {
+  color: #717171;
+}
+
+.play {
+  float: right;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  position: absolute;
+  left: 65%;
+  bottom: 7%;
+}
+
+.song-main-card:hover .play {
+  opacity: 1;
+}
+
+.song-likes {
+  padding-left: 8px;
+  color: red;
+}
+
+.likes {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* -------footer-------------------- */
+footer {
+  background-color: #222222;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.dropdown-footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-left-section {
+  flex: 0 0 75%;
+}
+
+.menu-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-col h5 {
+  color: white;
+}
+
+.menu-col a {
+  text-decoration: none;
+  color: #717171;
+}
+
+.menu-col a:hover {
+  color: rgb(28, 177, 28);
+}
+
+.insta-icon,
+.twitter-icon {
+  min-width: 40px;
+  max-width: 40px;
+}
+
+.twitter-icon {
+  margin-left: 20px;
+}
+
+/* ------------main logo------------ */
+.main-logo {
+  color: white;
+  padding: 10px;
+  background-color: #222222;
+  /* width: 30px; */
+}
+
+.top-box-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  align-self: center;
+  margin-right: 30px;
+}
+
+.main-heading:hover {
+  color: rgb(28, 177, 28);
+}
+
+.top-box-top a {
+  align-self: center;
+}
