@@ -3,7 +3,7 @@ const searchContainer = document.getElementById("section2-searchContainer");
 const filterContainer = document.getElementById("section2-FilterContainer");
 const popularityContainer = document.getElementById("songs-PopularContainer2");
 
-fetch("/Json/songs_details.json")
+fetch("/Musify-Final/Json/songs_details.json")
   .then((response) => response.json())
   .then((data) => {
     const popularCheck = document.getElementById("formCheckChecked");
@@ -104,8 +104,8 @@ function createSongCard(song) {
     </div>
     <h3 class="song-name">${song.song_name}</h3>
     <p class="song-description">${song.song_artist}</p>
-    <span class="song-likes"> <img class="likes" src='/images/heart-svgrepo-com.svg' alt="" />${song.popularity}</span>
-    <img class="play" src='/images/play-button-svgrepo-com.svg' alt="" />
+    <span class="song-likes"> <img class="likes" src='/Musify-Final/images/heart-svgrepo-com.svg' alt="" />${song.popularity}</span>
+    <img class="play" src='/Musify-Final/images/play-button-svgrepo-com.svg' alt="" />
   `;
 
   return card;

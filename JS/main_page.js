@@ -1,5 +1,5 @@
 // Fetch data from the JSON file
-fetch("/Json/songs.json")
+fetch("/Musify-Final/Json/songs.json")
   .then((response) => response.json())
   .then((data) => {
     // Now 'data' contains the parsed JSON content
@@ -28,7 +28,7 @@ fetch("/Json/songs.json")
   .catch((error) => console.error("Error fetching data:", error));
 
 // FETCH ALL SONGS
-fetch("/Json/songs_details.json")
+fetch("/Musify-Final/Json/songs_details.json")
   .then((response) => response.json())
   .then((data) => {
     // Now 'data' contains the parsed JSON content
@@ -49,7 +49,7 @@ fetch("/Json/songs_details.json")
           </div>
           <h3 class="song-name">${data.song_name}</h3>
           <p class="song-description">${data.song_artist}</p>
-          <img class="play" src='/images/play-button-svgrepo-com.svg' alt="" />
+          <img class="play" src='/Musify-Final/images/play-button-svgrepo-com.svg' alt="" />
           </a>
       `;
 
@@ -59,7 +59,7 @@ fetch("/Json/songs_details.json")
   .catch((error) => console.error("Error fetching data:", error));
 
 // CARD CONTAINER 2
-fetch("/Json/songs_details.json")
+fetch("/Musify-Final/Json/songs_details.json")
   .then((response) => response.json())
   .then((data) => {
     // Now 'data' contains the parsed JSON content
@@ -80,7 +80,7 @@ fetch("/Json/songs_details.json")
           </div>
           <h3 class="song-name">${data.song_name}</h3>
           <p class="song-description">${data.song_artist}</p>
-          <img class="play" src='/images/play-button-svgrepo-com.svg' alt="" />
+          <img class="play" src='/Musify-Final/images/play-button-svgrepo-com.svg' alt="" />
           </a>
       `;
 
@@ -100,7 +100,7 @@ function displayDropDown(className) {
 }
 
 //   filtered items------------------------------
-fetch("/Json/songs_details.json")
+fetch("/Musify-Final/Json/songs_details.json")
   .then((response) => response.json())
   .then((data) => {
     const cardContainer = document.getElementById("section2-searchContainer");
@@ -139,7 +139,7 @@ fetch("/Json/songs_details.json")
               </div>
               <h3 class="song-name">${song.song_name}</h3>
               <p class="song-description">${song.song_artist}</p>
-              <img class="play" src='/images/main_logo.svg' alt=" />"
+              <img class="play" src='/Musify-Final/images/main_logo.svg' alt=" />"
             `;
 
           cardContainer.appendChild(card);
