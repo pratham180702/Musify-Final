@@ -1,7 +1,7 @@
 [
   {
     "song_name": "Chill Vibes",
-    "image": "/song list images/chillVibes.jpeg",
+    "image": "/Musify-Final/song list images/chillVibes.jpeg",
     "song_type": "lofi",
     "song_artist": "Lofi Master",
     "song_origin": "Hollywood",
@@ -11,7 +11,7 @@
   },
   {
     "song_name": "Electric Storm",
-    "image": "/song list images/electricStorm.jpg",
+    "image": "/Musify-Final/song list images/electricStorm.jpg",
     "song_type": "electronic",
     "song_artist": "Synthwave Wizard",
     "song_origin": "Hollywood",
@@ -21,7 +21,7 @@
   },
   {
     "song_name": "City Lights",
-    "image": "/song list images/cityLights.jpeg",
+    "image": "/Musify-Final/song list images/cityLights.jpeg",
     "song_type": "jazz",
     "song_artist": "Smooth Jazz Trio",
     "song_origin": "Bollywood",
@@ -31,7 +31,7 @@
   },
   {
     "song_name": "Rock Anthem",
-    "image": "/song list images/rockAnthem.jpeg",
+    "image": "/Musify-Final/song list images/rockAnthem.jpeg",
     "song_type": "rock",
     "song_artist": "The Rockers",
     "song_origin": "Hollywood",
@@ -41,7 +41,7 @@
   },
   {
     "song_name": "Baarishein",
-    "image": "/song list images/baarishein.jpg",
+    "image": "/Musify-Final/song list images/baarishein.jpg",
     "song_type": "lofi",
     "song_artist": "anuv jain",
     "song_origin": "Bollywood",
@@ -51,7 +51,7 @@
   },
   {
     "song_name": "Sunset Serenade",
-    "image": "/song list images/Sunset Serenade.jpeg",
+    "image": "/Musify-Final/song list images/Sunset Serenade.jpeg",
     "song_type": "lofi",
     "song_artist": "Chill Beats Collective",
     "song_origin": "Hollywood",
@@ -61,7 +61,7 @@
   },
   {
     "song_name": "Retro Funk",
-    "image": "/song list images/retroFunk.jpg",
+    "image": "/Musify-Final/song list images/retroFunk.jpg",
     "song_type": "funk",
     "song_artist": "Funky Groove Band",
     "song_origin": "Hollywood",
@@ -71,7 +71,7 @@
   },
   {
     "song_name": "Bollywood Beats",
-    "image": "/song list images/Bollywood Beats.jpeg",
+    "image": "/Musify-Final/song list images/Bollywood Beats.jpeg",
     "song_type": "bollywood",
     "song_artist": "Bollywood Sensation",
     "song_origin": "Bollywood",
@@ -81,7 +81,7 @@
   },
   {
     "song_name": "Lunar Lullaby",
-    "image": "/song list images/Lunar Lullaby.jpg",
+    "image": "/Musify-Final/song list images/Lunar Lullaby.jpg",
     "song_type": "ambient",
     "song_artist": "Space Voyager",
     "song_origin": "Hollywood",
@@ -91,7 +91,7 @@
   },
   {
     "song_name": "Acoustic Serenade",
-    "image": "/song list images/chillVibes.jpeg",
+    "image": "/Musify-Final/song list images/chillVibes.jpeg",
     "song_type": "acoustic",
     "song_artist": "Acoustic Dreamer",
     "song_origin": "Hollywood",
@@ -101,7 +101,7 @@
   },
   {
     "song_name": "Urban Grooves",
-    "image": "/landing-page-images/urban.jpg",
+    "image": "/Musify-Final/landing-page-images/urban.jpg",
     "song_type": "hip hop",
     "song_artist": "Lofi Master",
     "song_origin": "Hollywood",
@@ -112,7 +112,7 @@
 
   {
     "song_name": "Epic Journey",
-    "image": "/song list images/epic_journey.jpeg",
+    "image": "/Musify-Final/song list images/epic_journey.jpeg",
     "song_type": "orchestral",
     "song_artist": "Lofi Master",
     "song_origin": "Hollywood",
@@ -123,7 +123,7 @@
 
   {
     "song_name": "Afreen",
-    "image": "/song list images/anuv.jpg",
+    "image": "/Musify-Final/song list images/anuv.jpg",
     "song_type": "indie",
     "song_artist": "Anuv Jain",
     "song_origin": "Bollywood",
@@ -133,7 +133,7 @@
   },
   {
     "song_name": "Riha",
-    "image": "/song list images/riha.jpg",
+    "image": "/Musify-Final/song list images/riha.jpg",
     "song_type": "indie",
     "song_artist": "Anuv Jain",
     "song_origin": "Bollywood",
@@ -144,7 +144,7 @@
 
   {
     "song_name": "Maula",
-    "image": "/song list images/maula.jpg",
+    "image": "/Musify-Final/song list images/maula.jpg",
     "song_type": "indie",
     "song_artist": "Anuv Jain",
     "song_origin": "Bollywood",

@@ -1,49 +1,49 @@
 [
   {
     "name": "Pop",
-    "image": "/landing-page-images/pop.jpg",
+    "image": "/Musify-Final/landing-page-images/pop.jpg",
     "style": "Pop Style",
     "description": "Catchy tunes and popular hits for your everyday playlist."
   },
   {
     "name": "Lofi",
-    "image": "/landing-page-images/lofi.jpg",
+    "image": "/Musify-Final/landing-page-images/lofi.jpg",
     "style": "Lofi Style",
     "description": "Chill beats and relaxing melodies, perfect for studying or unwinding."
   },
   {
     "name": "Rock",
-    "image": "/landing-page-images/rock.jpg",
+    "image": "/Musify-Final/landing-page-images/rock.jpg",
     "style": "Rock Style",
     "description": "Powerful guitars and energetic vibes to rock your day."
   },
   {
     "name": "Hip Hop",
-    "image": "/landing-page-images/hiphop.jpg",
+    "image": "/Musify-Final/landing-page-images/hiphop.jpg",
     "style": "Hip Hop Style",
     "description": "Urban beats and rhythmic flows for a hip musical experience."
   },
   {
     "name": "Electronic",
-    "image": "/landing-page-images/electronic.jpg",
+    "image": "/Musify-Final/landing-page-images/electronic.jpg",
     "style": "Electronic Style",
     "description": "Futuristic sounds and electronic beats to elevate your mood."
   },
   {
     "name": "Jazz",
-    "image": "/landing-page-images/jazz.jpg",
+    "image": "/Musify-Final/landing-page-images/jazz.jpg",
     "style": "Jazz Style",
     "description": "Smooth jazz tunes and improvisational melodies for jazz enthusiasts."
   },
   {
     "name": "Country",
-    "image": "/landing-page-images/country.jpg",
+    "image": "/Musify-Final/landing-page-images/country.jpg",
     "style": "Country Style",
     "description": "Heartwarming country songs and twangy tunes for a rustic feel."
   },
   {
     "name": "Indie",
-    "image": "/landing-page-images/indie.jpg",
+    "image": "/Musify-Final/landing-page-images/indie.jpg",
     "style": "Indie Style",
     "description": "Independent and alternative sounds from emerging artists."
   }
